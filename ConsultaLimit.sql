@@ -15,3 +15,6 @@ SELECT * FROM tabela_de_produtos LIMIT 2,3;
 --por isso, o primeiro número após o LIMIT será 2. 
 --Da mesma forma, se queremos que a seleção se inicie na primeira linha, podemos escrever o seguinte:
 SELECT * FROM tabela_de_produtos LIMIT 0,2;
+
+--Queremos obter as 10 primeiras vendas do dia 01/01/2017. Qual seria o comando SQL para obter este resultado?
+SELECT * FROM notas_fiscais  WHERE DATA_VENDA = '2017-01-01' limit 10;
