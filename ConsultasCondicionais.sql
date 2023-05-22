@@ -14,7 +14,7 @@ OR TAMANHO = '470 ml');
 SELECT * FROM tabela_de_produtos WHERE SABOR = 'Manga'
 AND NOT ( TAMANHO = '470 ml');
 
-SELECT * FROM tabela_de_produtos WHERE SABOR IN ('Laranja', 'Manga');
+SELECT * FROM tabela_de_produtos WHERE SABOR IN ('Laranja', 'Manga'); -- laranja ou manga
 
 SELECT * FROM tabela_de_produtos WHERE SABOR = 'Laranja' OR SABOR = 'Manga';
 
